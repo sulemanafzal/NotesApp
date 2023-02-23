@@ -50,7 +50,7 @@ class CreateNotesFragment : Fragment() {
         }
 
         binding.pred.setOnClickListener {
-            priority = "2"
+            priority = "3"
             binding.pred.setImageResource(R.drawable.baseline_done_24)
             binding.pyello.setImageResource(0)
             binding.pgreen.setImageResource(0)

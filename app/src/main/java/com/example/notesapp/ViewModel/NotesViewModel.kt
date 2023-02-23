@@ -23,6 +23,10 @@ class NotesViewModel(application: Application) : AndroidViewModel(application) {
 
     fun getNotes(): LiveData<List<Notes>> = repository.allNotes()
 
+    fun gethighNotes(): LiveData<List<Notes>> = repository.highNotes()
+    fun getmediumNotes(): LiveData<List<Notes>> = repository.mediumNotes()
+    fun getlowNotes(): LiveData<List<Notes>> = repository.lowNotes()
+
     fun deleteNotes(id: Int) {
         repository.deleteNotes(id)
     }

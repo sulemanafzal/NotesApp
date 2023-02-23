@@ -9,7 +9,6 @@ plugins {
 }
 apply plugin: "androidx.navigation.safeargs.kotlin"
 
-
 android {
     namespace 'com.example.notesapp'
     compileSdk 33
